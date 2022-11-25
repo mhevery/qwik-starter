@@ -85,7 +85,7 @@ export default component$(() => {
         </tr>
         <tr>
           <td>
-            <code>npm run qwik add static-node</code>
+            <code>npm run qwik add static</code>
           </td>
           <td>
             <a
@@ -117,11 +117,17 @@ export default component$(() => {
         <li>
           <span>Open issues and contribute on </span>
           <a href="https://github.com/BuilderIO/qwik" target="_blank">
-            Github
+            GitHub
+          </a>
+        </li>
+        <li>
+          <span>Watch </span>
+          <a href="https://qwik.builder.io/media/" target="_blank">
+            Presentations, Podcasts, Videos, etc.
           </a>
         </li>
       </ul>
-      <Link class="mindblow" href="/flower">
+      <Link class="mindblow" href="/flower/">
         Blow my mind 🤯
       </Link>
     </div>
@@ -130,4 +136,10 @@ export default component$(() => {
 
 export const head: DocumentHead = {
   title: 'Welcome to Qwik',
+  meta: [
+    {
+      name: 'description',
+      content: 'Qwik site description',
+    },
+  ],
 };
