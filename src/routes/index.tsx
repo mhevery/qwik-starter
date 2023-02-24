@@ -141,6 +141,9 @@ export default component$(() => {
       <Link class="mindblow" href="/flower/">
         Blow my mind 🤯
       </Link>
+      <Link class="todolist" href="/todolist/">
+        TODO demo 📝
+      </Link>
     </div>
   );
 });
